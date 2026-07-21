@@ -17,10 +17,20 @@
 }
 
 body {
-    background: var(--fundo);
-    color: var(--texto);
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+
+    background: linear-gradient(
+        135deg,
+        #050816 0%,
+        #111827 30%,
+        #312e81 65%,
+        #2563eb 100%
+    );
+
+    background-attachment: fixed;
 }
 
 .navbar {
